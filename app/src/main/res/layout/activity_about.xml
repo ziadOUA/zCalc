@@ -62,19 +62,20 @@
             app:layout_constraintTop_toBottomOf="@+id/about_help_us_category"
             tools:layout_editor_absoluteX="15dp" />
 
-        <TextView
-            android:id="@+id/about_rate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:color="?attr/text_color"
-            android:text="@string/about_rate"
-            app:layout_constraintTop_toBottomOf="@+id/about_translate"
-            app:drawableLeftCompat="@drawable/rate"
-            android:drawablePadding="20dp"
-            android:paddingVertical="12dp"
-            android:gravity="center_vertical"
-            android:textSize="@dimen/about_text"
-            android:layout_marginHorizontal="15dp"/>
+<!--        <TextView-->
+<!--            android:id="@+id/about_rate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="15dp"-->
+<!--            android:drawablePadding="20dp"-->
+<!--            android:gravity="center_vertical"-->
+<!--            android:paddingVertical="12dp"-->
+<!--            android:text="@string/about_rate"-->
+<!--            android:textSize="@dimen/about_text"-->
+<!--            app:color="?attr/text_color"-->
+<!--            app:drawableLeftCompat="@drawable/rate"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/about_translate"-->
+<!--            tools:layout_editor_absoluteX="13dp" />-->
 
         <View
             android:id="@+id/category_help_us_separator"
@@ -83,7 +84,7 @@
             android:layout_marginVertical="15dp"
             android:background="@drawable/rounded"
             android:backgroundTint="@color/foreground_color"
-            app:layout_constraintTop_toBottomOf="@+id/about_rate" />
+            app:layout_constraintTop_toBottomOf="@+id/about_translate" />
 
         <TextView
             android:id="@+id/about_social_category"
