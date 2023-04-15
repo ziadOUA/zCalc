@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_icon_background_color">#0B9CC7</color>
+
+    <color name="calculation_error_color">#F44B3F</color>
+
+    <!-- Normal Theme -->
+    <color name="foreground_color">#D0E6F2</color>
+    <color name="background_color">#FFF</color>
+    <color name="popup_background_color">#FFF</color>
+    <color name="history_background_color">#FFF</color>
+    <color name="text_color">#000</color>
+    <color name="text_second_color">#595959</color>
+    <color name="text_third_color">#7E7E7E</color>
+    <color name="text_category_color">#595959</color>
+    <color name="button_color">#EFEFEF</color>
+
+    <color name="button_symbol_color">#D0E6F2</color>
+    <color name="on_button_symbol_color">#081E27</color>
+
+    <color name="button_clear_color">#BEE9FF</color>
+    <color name="on_button_clear_color">#001F2A</color>
+
+    <color name="button_equals_color">#E3DFFF</color>
+    <color name="on_button_equals_color">#1A1836</color>
+
+    <color name="button_ripple_color">#C3C3C3</color>
+    <color name="switch_primary_color">#B4D2E4</color>
+    <color name="switch_on_primary_color">#FFFFFF</color>
+    <color name="switch_surface_variant_color">#636363</color>
+
+    <!-- AMOLED Theme -->
+    <color name="amoled_foreground_color">#000</color>
+    <color name="amoled_background_color">#000</color>
+    <color name="amoled_popup_background_color">#323232</color>
+    <color name="amoled_history_background_color">#000</color>
+    <color name="amoled_text_color">#EFEFEF</color>
+    <color name="amoled_text_second_color">#BDBDBD</color>
+    <color name="amoled_text_third_color">#B1B1B1</color>
+    <color name="amoled_text_category_color">#BDBDBD</color>
+    <color name="amoled_button_color">#000</color>
+    <color name="amoled_button_symbol_color">#000</color>
+    <color name="amoled_button_clear_color">#000</color>
+    <color name="amoled_button_equals_color">#000</color>
+    <color name="amoled_button_ripple_color">#9E9E9E</color>
+    <color name="amoled_separator_color">#EFEFEF</color>
+    <color name="amoled_switch_primary_color">#fff</color>
+    <color name="amoled_switch_on_primary_color">#D3D3D3</color>
+</resources>

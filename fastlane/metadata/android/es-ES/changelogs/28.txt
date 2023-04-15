@@ -1,0 +1,18 @@
+Nuevo:
+- Sistema interno de cálculos
+- Decimal
+- Evitar dos separadores decimales
+- Traducción Brasileño (@Bardock88)
+- Traducción Taiwanés y Hongkonés (@alecchangod)
+- Traducción Español
+
+Fijado:
+- Desplazo en el historial (@MahmoudRH)
+- Precisión del resultado
+- Retroceso con separadores
+- "Error matemático" y no "NaN" (@lefterisgar)
+- Modo horizontal en tabletas de 10"
+- Retroceso después del igual
+- Bloqueo del resultado del historial
+- Problemas en el formato de expresiones
+- Otros arreglos

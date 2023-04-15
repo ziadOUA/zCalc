@@ -1,0 +1,3 @@
+New:
+- Amoled theme
+- Follow system theme

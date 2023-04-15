@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name" translatable="false">zCalc</string>
+    <string name="app_name_display" translatable="false">zCalc</string>
+
+    <string name="select_theme_title">Select Theme</string>
+
+    <string name="zero" translatable="false">0</string>
+    <string name="one" translatable="false">1</string>
+    <string name="two" translatable="false">2</string>
+    <string name="three" translatable="false">3</string>
+    <string name="four" translatable="false">4</string>
+    <string name="five" translatable="false">5</string>
+    <string name="six" translatable="false">6</string>
+    <string name="seven" translatable="false">7</string>
+    <string name="eight" translatable="false">8</string>
+    <string name="nine" translatable="false">9</string>
+
+    <string name="clear" translatable="false">AC</string>
+    <string name="parentheses" translatable="false">(  )</string>
+    <string name="add" translatable="false">+</string>
+    <string name="subtract" translatable="false">−</string>
+    <string name="point" translatable="false">.</string>
+    <string name="equals" translatable="false">=</string>
+    <string name="divide" translatable="false">÷</string>
+    <string name="multiply" translatable="false">×</string>
+    <string name="exponent" translatable="false">^</string>
+    <string name="backspace" translatable="false"> </string>
+
+    <string name="divideBy100" translatable="false">%</string>
+    <string name="degree" translatable="false">DEG</string>
+    <string name="sine" translatable="false">sin</string>
+    <string name="sineInv" translatable="false">sin⁻¹</string>
+    <string name="cosine" translatable="false">cos</string>
+    <string name="cosineInv" translatable="false">cos⁻¹</string>
+
+    <string name="tangent" translatable="false">tan</string>
+    <string name="tangentInv" translatable="false">tan⁻¹</string>
+    <string name="inv" translatable="false">INV</string>
+    <string name="e" translatable="false">e</string>
+    <string name="naturalLogarithm" translatable="false">ln</string>
+    <string name="naturalLogarithmInv" translatable="false">e^</string>
+
+    <string name="logarithm" translatable="false">log</string>
+    <string name="logarithmInv" translatable="false">10^</string>
+    <string name="pi" translatable="false">π</string>
+    <string name="factorial" translatable="false">!</string>
+    <string name="square" translatable="false">√</string>
+    <string name="squareInv" translatable="false">x²</string>
+
+    <!-- App Menu -->
+    <string name="app_menu_theme">Theme</string>
+    <string name="app_menu_vibration">Vibration</string>
+    <string name="app_menu_clear_history">Clear History</string>
+    <string name="app_menu_github" translatable="false">GitHub</string>
+    <string name="app_menu_about">About</string>
+
+    <!-- Theme choices -->
+    <string name="theme_system">System</string>
+    <string name="theme_amoled">Amoled</string>
+    <string name="theme_material_you" translatable="false">Material You</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Others -->
+    <string name="value_copied">Copied</string>
+    <string name="infinity">Infinity</string>
+    <string name="division_by_0">Can\'t divide by 0</string>
+    <string name="domain_error">Domain error</string>
+    <string name="math_error">Math error</string>
+    <string name="syntax_error">Syntax error</string>
+    <string name="app_menu_settings">Settings</string>
+    <string name="value_too_large">Value too large</string>
+
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="preferences_title">Settings</string>
+    <string name="preferences_general_category">GENERAL</string>
+    <string name="preferences_history_category">HISTORY</string>
+
+    <!-- Messages Preferences -->
+    <string name="preferences_prevent_phone_from_sleeping_summary">Prevent phone from sleeping while the app is in foreground</string>
+    <string name="preferences_vibration_summary">Emit vibrations when a button is pressed</string>
+    <string name="preferences_history_size">Results saved in history</string>
+    <string name="preferences_vibration_title">Vibrations</string>
+    <string name="preferences_prevent_phone_from_sleeping_title">Prevent phone from sleeping</string>
+    <string name="preferences_advanced_category">ADVANCED</string>
+    <string name="preferences_scientif_mode_enabled_by_default_summary">Activate scientific mode by default</string>
+    <string name="preferences_scientif_mode_enabled_by_default_title">Scientific mode</string>
+    <string name="preferences_radians_instead_of_degrees_by_default_title">Radians</string>
+    <string name="preferences_radians_instead_of_degrees_by_default_summary">Use radians instead of degrees by default</string>
+    <string name="about_help_us_category">HELP US</string>
+    <string name="about_donate">Donate</string>
+    <string name="about_discord" translatable="false">Discord</string>
+    <string name="about_github" translatable="false">GitHub</string>
+    <string name="about_social_category">SOCIAL</string>
+    <string name="app_version" translatable="false">APP VERSION</string>
+    <string name="about_other_category">OTHER</string>
+    <string name="about_translate">Translate</string>
+    <string name="about_rate">Rate this app</string>
+    <string name="app_version_title">Version</string>
+    <string name="thanks_for_using_opencalc">Thanks for using OpenCalc ❤️</string>
+    <string name="made_in_france">Made with ❤️ in France</string>
+    <string name="preferences_number_precision">Number of decimal places</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="about_title">About</string>
+    <string name="preferences_language_title">Language</string>
+</resources>
