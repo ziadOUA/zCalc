@@ -43,6 +43,7 @@
         <item name="colorSecondary">@color/text_third_color</item>
 
         <item name="materialSwitchStyle">@style/Widget.App.Switch</item>
+        <item name="about_elements_color">@color/about_elements_color</item>
     </style>
 
     <!-- Amoled theme. Based on Theme.Material3.Dark. Therefore its always dark -->
@@ -81,6 +82,7 @@
 
         <item name="colorPrimary">@color/amoled_switch_primary_color</item> <!-- Switch On Color -->
         <item name="colorOnPrimary">@color/amoled_switch_on_primary_color</item>
+        <item name="about_elements_color">@color/amoled_background_color</item>
     </style>
 
     <!-- Material You theme. Overrides some colors of the Default theme -->
@@ -107,6 +109,7 @@
 
         <item name="colorSecondary">@color/material_dynamic_primary70</item>
         <item name="materialSwitchStyle">@style/Widget.App.Switch.Light_Material</item>
+        <item name="about_elements_color">@color/material_dynamic_neutral_variant90</item>
     </style>
 
     <style name="Widget.App.Switch.Light_Material" parent="Widget.Material3.CompoundButton.MaterialSwitch">

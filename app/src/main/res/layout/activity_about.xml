@@ -47,15 +47,17 @@
             android:layout_marginHorizontal="69dp"
             app:layout_constraintTop_toBottomOf="@+id/about_back_button_text" />
 
-        <TextView
+        <Button
             android:id="@+id/about_translate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
+            android:backgroundTint="?attr/about_elements_color"
             android:drawablePadding="20dp"
             android:gravity="center_vertical"
             android:paddingVertical="12dp"
             android:text="@string/about_translate"
+            android:textColor="?attr/text_color"
             android:textSize="@dimen/about_text"
             app:color="?attr/text_color"
             app:drawableLeftCompat="@drawable/translate"
@@ -83,7 +85,7 @@
             android:layout_height="1dp"
             android:layout_marginVertical="15dp"
             android:background="@drawable/rounded"
-            android:backgroundTint="@color/foreground_color"
+            android:backgroundTint="?attr/foreground_color"
             app:layout_constraintTop_toBottomOf="@+id/about_translate" />
 
         <TextView
@@ -97,19 +99,22 @@
             android:layout_marginTop="15dp"
             app:layout_constraintTop_toBottomOf="@+id/category_help_us_separator" />
 
-        <TextView
+        <Button
             android:id="@+id/about_github"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
-            android:paddingVertical="12dp"
+            android:backgroundTint="?attr/about_elements_color"
             android:drawablePadding="20dp"
             android:gravity="center_vertical"
+            android:paddingVertical="12dp"
             android:text="@string/about_github"
+            android:textColor="?attr/text_color"
             android:textSize="@dimen/about_text"
             app:color="?attr/text_color"
             app:drawableLeftCompat="@drawable/github"
-            app:layout_constraintTop_toBottomOf="@+id/about_social_category" />
+            app:layout_constraintTop_toBottomOf="@+id/about_social_category"
+            tools:layout_editor_absoluteX="15dp" />
 
         <View
             android:id="@+id/category_social_separator"
@@ -130,31 +135,21 @@
             android:layout_marginTop="15dp"
             app:layout_constraintTop_toBottomOf="@+id/category_social_separator" />
 
-        <TextView
+        <Button
             android:id="@+id/about_privacy_policy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="15dp"
+            android:backgroundTint="?attr/about_elements_color"
             android:drawablePadding="20dp"
             android:gravity="center_vertical"
             android:paddingVertical="12dp"
             android:text="@string/privacy_policy"
+            android:textColor="?attr/text_color"
             android:textSize="@dimen/about_text"
             app:drawableLeftCompat="@drawable/privacy"
-            app:layout_constraintTop_toBottomOf="@+id/about_other_category" />
-
-        <TextView
-            android:id="@+id/about_app_version"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:drawablePadding="20dp"
-            android:gravity="center_vertical"
-            android:paddingVertical="12dp"
-            android:text="@string/app_version"
-            android:textSize="@dimen/about_text"
-            app:drawableLeftCompat="@drawable/info"
-            app:layout_constraintTop_toBottomOf="@+id/about_privacy_policy" />
+            app:layout_constraintTop_toBottomOf="@+id/about_other_category"
+            tools:layout_editor_absoluteX="15dp" />
 
         <View
             android:id="@+id/category_end_separator"
@@ -162,21 +157,35 @@
             android:layout_height="1dp"
             android:layout_marginVertical="15dp"
             android:background="?attr/foreground_color"
-            app:layout_constraintTop_toBottomOf="@+id/about_app_version" />
+            app:layout_constraintTop_toBottomOf="@+id/about_privacy_policy" />
 
         <TextView
             android:id="@+id/about_made_in_france"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="69dp"
-            android:gravity="center_vertical"
             android:paddingVertical="12dp"
-            android:layout_marginTop="15dp"
             android:text="@string/made_in_france"
+            android:textAlignment="center"
             android:textSize="@dimen/about_text"
-            app:layout_constraintTop_toBottomOf="@+id/category_end_separator" />
+            app:layout_constraintTop_toBottomOf="@+id/about_app_version"
+            tools:layout_editor_absoluteX="0dp" />
 
-
+        <TextView
+            android:id="@+id/about_app_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="?attr/about_elements_color"
+            android:drawablePadding="20dp"
+            android:paddingVertical="12dp"
+            android:text="@string/app_version"
+            android:textAlignment="center"
+            android:textColor="?attr/text_color"
+            android:textSize="@dimen/about_text"
+            app:layout_constraintTop_toBottomOf="@+id/category_end_separator"
+            tools:layout_editor_absoluteX="0dp" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

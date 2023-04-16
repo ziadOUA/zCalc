@@ -31,6 +31,7 @@
         <item name="colorSecondary">@color/material_dynamic_primary40</item>
 
         <item name="materialSwitchStyle">@style/Widget.App.Switch.Dark</item>
+        <item name="about_elements_color">@color/material_dynamic_neutral_variant30</item>
     </style>
 
     <style name="Widget.App.Switch.Dark" parent="Widget.Material3.CompoundButton.MaterialSwitch">
