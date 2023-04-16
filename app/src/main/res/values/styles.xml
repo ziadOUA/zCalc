@@ -67,8 +67,11 @@
 
         <item name="button_color">@color/amoled_button_color</item>
         <item name="button_symbol_color">@color/amoled_button_symbol_color</item>
+        <item name="on_button_symbol_color">@color/amoled_text_color</item>
         <item name="button_clear_color">@color/amoled_button_clear_color</item>
+        <item name="on_button_clear_color">@color/amoled_text_color</item>
         <item name="button_equals_color">@color/amoled_button_equals_color</item>
+        <item name="on_button_equals_color">@color/amoled_text_color</item>
         <item name="button_ripple_color">@color/amoled_button_ripple_color</item>
 
         <item name="separator_color">@color/amoled_separator_color</item>
