@@ -310,7 +310,6 @@
                         android:layout_weight="1"
                         android:backgroundTint="?attr/button_symbol_color"
                         android:onClick="parenthesesButton"
-                        android:tint="?attr/on_button_symbol_color"
                         app:srcCompat="@drawable/parentheses" />
 
                     <ImageButton
