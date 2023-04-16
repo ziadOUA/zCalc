@@ -1,11 +1,13 @@
 <vector android:height="40dp" android:tint="?attr/on_button_symbol_color"
     android:viewportHeight="24" android:viewportWidth="24"
     android:width="40dp" xmlns:android="http://schemas.android.com/apk/res/android">
-    <group
-        android:scaleX="@dimen/icon_scale"
-        android:scaleY="@dimen/icon_scale"
-        android:translateX="@dimen/icon_translate"
-        android:translateY="@dimen/icon_translate">
-        <path android:fillColor="@android:color/white" android:pathData="M 23.75,14.028217 H 0.25 v -3.956434 h 23.5 v 3.956434 M 11.95,0.05 c 1.8,0 3.17,1.33 3.17,3.17 0,1.8 -1.33,3.17 -3.17,3.17 -1.8,0 -3.17,-1.33 -3.17,-3.17 0,-1.8 1.33,-3.17 3.17,-3.17 m 0,17.46 c 1.8,0 3.22,1.38 3.22,3.22 0,1.8 -1.38,3.22 -3.22,3.22 -1.8,0 -3.22,-1.38 -3.22,-3.22 0,-1.8 1.38,-3.22 3.22,-3.22 z"/>
-    </group>
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M14 7C14 8.10457 13.1046 9 12 9C10.8954 9 10 8.10457 10 7C10 5.89543 10.8954 5 12 5C13.1046 5 14 5.89543 14 7Z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12Z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12 19C13.1046 19 14 18.1046 14 17C14 15.8954 13.1046 15 12 15C10.8954 15 10 15.8954 10 17C10 18.1046 10.8954 19 12 19Z" />
 </vector>
