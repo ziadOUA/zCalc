@@ -48,14 +48,14 @@ class AboutActivity : AppCompatActivity() {
             startActivity(browserIntent)
         }
 
-        // Rate
-        binding.aboutRate.setOnClickListener {
-            val browserIntent = Intent(
-                Intent.ACTION_VIEW,
-                Uri.parse("https://play.google.com/store/apps/details?id=com.darkempire78.opencalculator")
-            )
-            startActivity(browserIntent)
-        }
+//        // Rate
+//        binding.aboutRate.setOnClickListener {
+//            val browserIntent = Intent(
+//                Intent.ACTION_VIEW,
+//                Uri.parse("https://play.google.com/store/apps/details?id=com.darkempire78.opencalculator")
+//            )
+//            startActivity(browserIntent)
+//        }
 
 //        // Tip
 //        binding.aboutDonate.setOnClickListener {
