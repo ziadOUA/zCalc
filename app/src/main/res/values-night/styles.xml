@@ -9,7 +9,7 @@
     <style name="MaterialYouTheme" parent="AppTheme">
         <item name="android:statusBarColor">@color/material_dynamic_secondary20</item>
 
-        <item name="foreground_color">@color/material_dynamic_secondary30</item>
+        <item name="foreground_color">@color/material_dynamic_secondary20</item>
         <item name="on_foreground_color">@color/material_dynamic_secondary90</item>
         <item name="popup_background_color">@color/material_dynamic_secondary30</item>
         <item name="history_background_color">@color/material_dynamic_secondary10</item>
@@ -32,7 +32,10 @@
         <item name="colorSecondary">@color/material_dynamic_primary40</item>
 
         <item name="materialSwitchStyle">@style/Widget.App.Switch.Dark</item>
+
         <item name="about_elements_color">@color/material_dynamic_neutral_variant30</item>
+        <item name="about_category_color">@color/material_dynamic_primary80</item>
+        <item name="about_separator_color">@color/material_dynamic_primary40</item>
     </style>
 
     <style name="Widget.App.Switch.Dark" parent="Widget.Material3.CompoundButton.MaterialSwitch">

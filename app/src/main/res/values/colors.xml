@@ -29,7 +29,10 @@
     <color name="switch_primary_color">#B4D2E4</color>
     <color name="switch_on_primary_color">#FFFFFF</color>
     <color name="switch_surface_variant_color">#636363</color>
+
     <color name="about_elements_color">#DCE4E9</color>
+    <color name="about_category_color">#006684</color>
+    <color name="about_separator_color">#68D3FF</color>
 
     <!-- AMOLED Theme -->
     <color name="amoled_foreground_color">#000</color>
