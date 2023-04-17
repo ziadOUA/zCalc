@@ -1,11 +1,7 @@
 <vector android:height="40dp" android:tint="?attr/on_button_symbol_color"
     android:viewportHeight="24" android:viewportWidth="24"
     android:width="40dp" xmlns:android="http://schemas.android.com/apk/res/android">
-    <group
-        android:scaleX="@dimen/icon_scale"
-        android:scaleY="@dimen/icon_scale"
-        android:translateX="@dimen/icon_translate"
-        android:translateY="@dimen/icon_translate">
-        <path android:fillColor="@android:color/white" android:pathData="m 21.320833,18.195 h -4.56 l -4.59,-7.78 -4.5899997,7.82 h -4.56 L 10.320833,6.1066667 h 3.68 z"/>
-    </group>
+    <path
+        android:fillColor="#000000"
+        android:pathData="M7.90452 16.8C7.68668 16.8 7.54147 16.5752 7.63107 16.3766L10.8803 9.1766C10.9288 9.0691 11.0358 9 11.1537 9H12.8053C12.9237 9 13.0311 9.06964 13.0793 9.17777L16.2916 16.3778C16.3802 16.5762 16.2349 16.8 16.0177 16.8H14.6997C14.5788 16.8 14.4696 16.7273 14.423 16.6157L12.46 11.92C12.3533 11.6533 12.26 11.3933 12.18 11.14V11.14C12.1256 10.9677 11.8646 10.9644 11.8022 11.1341C11.8015 11.136 11.8007 11.138 11.8 11.14C11.72 11.3933 11.6267 11.6533 11.52 11.92L9.49807 16.6186C9.45069 16.7287 9.34235 16.8 9.2225 16.8H7.90452Z" />
 </vector>
