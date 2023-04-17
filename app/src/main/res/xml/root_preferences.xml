@@ -4,8 +4,8 @@
     >
 
     <PreferenceCategory
-        app:title="@string/preferences_general_category"
-        app:color="?attr/text_color">
+        app:color="?attr/about_category_color"
+        app:title="@string/preferences_general_category">
         <!--app:iconSpaceReserved="false"-->
 
         <Preference
@@ -57,20 +57,11 @@
             app:title="@string/preferences_number_precision"
             app:useSimpleSummaryProvider="true" />
 
-
-        <!-- <ListPreference
-            app:key="reply"
-            app:title="@string/reply_title"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:defaultValue="reply"
-            app:useSimpleSummaryProvider="true"/> -->
-
     </PreferenceCategory>
 
     <PreferenceCategory
-        app:title="@string/preferences_history_category"
-        app:color="?attr/text_color">
+        app:color="@color/about_category_color"
+        app:title="@string/preferences_history_category">
 
         <ListPreference
             app:defaultValue="100"
@@ -85,8 +76,8 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        app:title="@string/preferences_advanced_category"
-        app:color="?attr/text_color">
+        app:color="@color/about_category_color"
+        app:title="@string/preferences_advanced_category">
 
         <SwitchPreferenceCompat
             app:defaultValue="false"
@@ -99,21 +90,5 @@
             app:widgetLayout="@drawable/material_switch" />
 
     </PreferenceCategory>
-
-    <!--<PreferenceCategory
-        app:title="@string/sync_header">
-
-        <SwitchPreferenceCompat
-            app:key="sync"
-            app:title="@string/sync_title"/>
-
-        <SwitchPreferenceCompat
-            app:key="attachment"
-            app:title="@string/attachment_title"
-            app:summaryOn="@string/attachment_summary_on"
-            app:summaryOff="@string/attachment_summary_off"
-            app:dependency="sync"/>
-
-    </PreferenceCategory> -->
 
 </PreferenceScreen>
