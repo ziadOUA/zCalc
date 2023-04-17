@@ -16,10 +16,10 @@
             android:id="@+id/about_back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="18dp"
             android:background="@drawable/ic_baseline_arrow_back_24"
             android:backgroundTint="?attr/text_color"
-            android:layout_marginVertical="18dp"
-            android:layout_marginHorizontal="16dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,153 +40,187 @@
             android:id="@+id/about_help_us_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginHorizontal="69dp"
             android:layout_marginTop="20dp"
-            android:textStyle="bold"
             android:text="@string/about_help_us_category"
             android:textColor="?attr/text_category_color"
-            android:layout_marginHorizontal="69dp"
-            app:layout_constraintTop_toBottomOf="@+id/about_back_button_text" />
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/about_back_button_text"
+            tools:layout_editor_absoluteX="69dp" />
 
-        <Button
+        <LinearLayout
             android:id="@+id/about_translate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:backgroundTint="?attr/about_elements_color"
-            android:drawablePadding="20dp"
-            android:gravity="center_vertical"
-            android:paddingVertical="12dp"
-            android:text="@string/about_translate"
-            android:textColor="?attr/text_color"
-            android:textSize="@dimen/about_text"
-            app:color="?attr/text_color"
-            app:drawableLeftCompat="@drawable/translate"
-            app:layout_constraintTop_toBottomOf="@+id/about_help_us_category"
-            tools:layout_editor_absoluteX="15dp" />
-
-<!--        <TextView-->
-<!--            android:id="@+id/about_rate"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginHorizontal="15dp"-->
-<!--            android:drawablePadding="20dp"-->
-<!--            android:gravity="center_vertical"-->
-<!--            android:paddingVertical="12dp"-->
-<!--            android:text="@string/about_rate"-->
-<!--            android:textSize="@dimen/about_text"-->
-<!--            app:color="?attr/text_color"-->
-<!--            app:drawableLeftCompat="@drawable/rate"-->
-<!--            app:layout_constraintTop_toBottomOf="@+id/about_translate"-->
-<!--            tools:layout_editor_absoluteX="13dp" />-->
-
-        <View
-            android:id="@+id/category_help_us_separator"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginVertical="15dp"
-            android:background="@drawable/rounded"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/about_element"
             android:backgroundTint="?attr/foreground_color"
-            app:layout_constraintTop_toBottomOf="@+id/about_translate" />
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_help_us_category">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/translate" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:text="@string/about_translate"
+                android:textColor="?attr/on_foreground_color"
+                android:textSize="@dimen/about_text" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/about_social_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="69dp"
-            android:textStyle="bold"
+            android:layout_marginTop="20dp"
             android:text="@string/about_social_category"
             android:textColor="?attr/text_category_color"
-            android:layout_marginTop="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/category_help_us_separator" />
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/about_translate"
+            tools:layout_editor_absoluteX="69dp" />
 
-        <Button
+        <LinearLayout
             android:id="@+id/about_github"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:backgroundTint="?attr/about_elements_color"
-            android:drawablePadding="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/about_element"
+            android:backgroundTint="?attr/foreground_color"
             android:gravity="center_vertical"
-            android:paddingVertical="12dp"
-            android:text="@string/about_github"
-            android:textColor="?attr/text_color"
-            android:textSize="@dimen/about_text"
-            app:color="?attr/text_color"
-            app:drawableLeftCompat="@drawable/github"
-            app:layout_constraintTop_toBottomOf="@+id/about_social_category"
-            tools:layout_editor_absoluteX="15dp" />
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_social_category">
 
-        <View
-            android:id="@+id/category_social_separator"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginVertical="15dp"
-            android:background="?attr/foreground_color"
-            app:layout_constraintTop_toBottomOf="@+id/about_github" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/github" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:text="@string/about_github"
+                android:textColor="?attr/on_foreground_color"
+                android:textSize="@dimen/about_text" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/about_other_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="69dp"
+            android:layout_marginTop="20dp"
             android:text="@string/about_other_category"
             android:textColor="?attr/text_category_color"
             android:textStyle="bold"
-            android:layout_marginTop="15dp"
-            app:layout_constraintTop_toBottomOf="@+id/category_social_separator" />
+            app:layout_constraintTop_toBottomOf="@+id/about_github"
+            tools:layout_editor_absoluteX="69dp" />
 
-        <Button
+        <LinearLayout
             android:id="@+id/about_privacy_policy"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:backgroundTint="?attr/about_elements_color"
-            android:drawablePadding="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/about_element"
+            android:backgroundTint="?attr/foreground_color"
             android:gravity="center_vertical"
-            android:paddingVertical="12dp"
-            android:text="@string/privacy_policy"
-            android:textColor="?attr/text_color"
-            android:textSize="@dimen/about_text"
-            app:drawableLeftCompat="@drawable/privacy"
-            app:layout_constraintTop_toBottomOf="@+id/about_other_category"
-            tools:layout_editor_absoluteX="15dp" />
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_other_category">
 
-        <View
-            android:id="@+id/category_end_separator"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginVertical="15dp"
-            android:background="?attr/foreground_color"
-            app:layout_constraintTop_toBottomOf="@+id/about_privacy_policy" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/privacy" />
 
-        <TextView
-            android:id="@+id/about_made_in_france"
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:text="@string/privacy_policy"
+                android:textColor="?attr/on_foreground_color"
+                android:textSize="@dimen/about_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/about_open_source_licences"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="69dp"
-            android:paddingVertical="12dp"
-            android:text="@string/made_in_france"
-            android:textAlignment="center"
-            android:textSize="@dimen/about_text"
-            app:layout_constraintTop_toBottomOf="@+id/about_app_version"
-            tools:layout_editor_absoluteX="0dp" />
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/about_element"
+            android:backgroundTint="?attr/foreground_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_privacy_policy">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/code" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_weight="1"
+                android:text="@string/open_source_licences"
+                android:textColor="?attr/on_foreground_color"
+                android:textSize="@dimen/about_text" />
+        </LinearLayout>
 
         <TextView
             android:id="@+id/about_app_version"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="15dp"
-            android:layout_marginTop="15dp"
-            android:backgroundTint="?attr/about_elements_color"
-            android:drawablePadding="20dp"
-            android:paddingVertical="12dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1"
             android:text="@string/app_version"
             android:textAlignment="center"
             android:textColor="?attr/text_color"
             android:textSize="@dimen/about_text"
-            app:layout_constraintTop_toBottomOf="@+id/category_end_separator"
-            tools:layout_editor_absoluteX="0dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_open_source_licences" />
 
+        <TextView
+            android:id="@+id/made_in_france"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="@string/made_in_france"
+            android:textAlignment="center"
+            android:textColor="?attr/text_color"
+            android:textSize="@dimen/about_text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/about_app_version" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.core.widget.NestedScrollView>

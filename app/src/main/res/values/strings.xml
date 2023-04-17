@@ -104,6 +104,7 @@
     <string name="made_in_france">Made with ❤️ in France</string>
     <string name="preferences_number_precision">Number of decimal places</string>
     <string name="privacy_policy">Privacy policy</string>
+    <string name="open_source_licences">Open source licences</string>
     <string name="about_title">About</string>
     <string name="preferences_language_title">Language</string>
 </resources>

@@ -48,24 +48,6 @@ class AboutActivity : AppCompatActivity() {
             startActivity(browserIntent)
         }
 
-//        // Rate
-//        binding.aboutRate.setOnClickListener {
-//            val browserIntent = Intent(
-//                Intent.ACTION_VIEW,
-//                Uri.parse("https://play.google.com/store/apps/details?id=com.darkempire78.opencalculator")
-//            )
-//            startActivity(browserIntent)
-//        }
-
-//        // Tip
-//        binding.aboutDonate.setOnClickListener {
-//            val browserIntent = Intent(
-//                Intent.ACTION_VIEW,
-//                Uri.parse("https://www.paypal.me/ImDarkempire")
-//            )
-//            startActivity(browserIntent)
-//        }
-
         // Github
         binding.aboutGithub.setOnClickListener {
             val browserIntent = Intent(
@@ -75,19 +57,20 @@ class AboutActivity : AppCompatActivity() {
             startActivity(browserIntent)
         }
 
-//        // Discord
-//        binding.aboutDiscord.setOnClickListener {
-//            val browserIntent = Intent(
-//                Intent.ACTION_VIEW,
-//                Uri.parse("https://discord.com/invite/sPvJmY7mcV")
-//            )
-//            startActivity(browserIntent)
-//        }
-
+        // Privacy Policy
         binding.aboutPrivacyPolicy.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
                 Uri.parse("https://github.com/ziadOUA/zCalc/blob/master/PRIVACY.md")
+            )
+            startActivity(browserIntent)
+        }
+
+        // Open Source Licences
+        binding.aboutOpenSourceLicences.setOnClickListener {
+            val browserIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse("https://github.com/Darkempire78/OpenCalc/blob/main/LICENSE")
             )
             startActivity(browserIntent)
         }

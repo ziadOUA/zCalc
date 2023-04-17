@@ -6,6 +6,7 @@
 
     <!-- Normal Theme -->
     <color name="foreground_color">#D0E6F2</color>
+    <color name="on_foreground_color">#081E27</color>
     <color name="background_color">#FFF</color>
     <color name="popup_background_color">#FFF</color>
     <color name="history_background_color">#FFF</color>
