@@ -81,13 +81,11 @@
             app:layout_constraintTop_toBottomOf="@+id/about_help_us_category_wrapper">
 
             <ImageView
-                android:id="@+id/imageView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/translate" />
 
             <TextView
-                android:id="@+id/textView"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
