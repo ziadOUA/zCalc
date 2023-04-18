@@ -547,7 +547,7 @@
                 android:layout_height="4dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/rounded"
-                android:backgroundTint="?attr/text_color"
+                android:backgroundTint="?attr/on_foreground_color"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
