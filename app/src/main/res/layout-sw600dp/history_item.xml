@@ -58,12 +58,21 @@
             tools:ignore="MissingConstraints" />
 
         <View
-            android:id="@+id/history_separator"
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:background="?attr/foreground_color"
             app:layout_constraintTop_toBottomOf="@+id/history_item_result"
             tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/history_separator"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="?attr/history_background_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/history_item_result"
+            app:srcCompat="@drawable/separator_history" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
