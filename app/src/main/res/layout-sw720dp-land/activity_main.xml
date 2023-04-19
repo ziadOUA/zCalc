@@ -101,9 +101,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="squareButton"
                         android:text="@string/square"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/piButton"
@@ -112,9 +113,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="piButton"
                         android:text="@string/pi"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/divideBy100Button"
@@ -123,9 +125,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="divideBy100"
                         android:text="@string/divideBy100"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/factorialButton"
@@ -134,8 +137,9 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="factorialButton"
-                        android:text="@string/factorial"/>
+                        android:text="@string/factorial" />
 
                     <ImageButton
                         android:id="@+id/scientistModeSwitchButton"
@@ -171,6 +175,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="degreeButton"
                         android:text="@string/degree"
                         android:textSize="@dimen/button_text_size" />
@@ -182,9 +187,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="sineButton"
                         android:text="@string/sine"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/cosineButton"
@@ -193,9 +199,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="cosineButton"
                         android:text="@string/cosine"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/tangentButton"
@@ -204,9 +211,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="tangentButton"
                         android:text="@string/tangent"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Space
                         android:id="@+id/emptyScientistMode1"
@@ -233,9 +241,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="invButton"
                         android:text="@string/inv"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/eButton"
@@ -244,9 +253,10 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="eButton"
                         android:text="@string/e"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/naturalLogarithmButton"
@@ -255,6 +265,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="naturalLogarithmButton"
                         android:text="@string/naturalLogarithm"
                         android:textSize="@dimen/button_text_size" />
@@ -266,6 +277,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="logarithmButton"
                         android:text="@string/logarithm"
                         android:textSize="@dimen/button_text_size" />
@@ -293,6 +305,7 @@
                         android:layout_marginVertical="7dp"
                         android:layout_weight="1"
                         android:backgroundTint="?attr/button_clear_color"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="clearButton"
                         android:text="@string/clear"
                         android:textSize="@dimen/button_text_size" />
@@ -339,9 +352,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/seven"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/eightButton"
@@ -349,9 +363,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/eight"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/nineButton"
@@ -359,9 +374,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/nine"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <ImageButton
                         android:id="@+id/multiplyButton"
@@ -385,9 +401,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/four"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/fiveButton"
@@ -395,9 +412,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/five"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/sixButton"
@@ -406,9 +424,10 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:background="@drawable/circle"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/six"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <ImageButton
                         android:id="@+id/subtractButton"
@@ -432,9 +451,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/one"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/twoButton"
@@ -442,9 +462,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/two"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <Button
                         android:id="@+id/threeButton"
@@ -452,9 +473,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/three"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <ImageButton
                         android:id="@+id/addButton"
@@ -479,9 +501,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/zero"
-                        android:textSize="@dimen/button_text_size"/>
+                        android:textSize="@dimen/button_text_size" />
 
                     <ImageButton
                         android:id="@+id/pointButton"
