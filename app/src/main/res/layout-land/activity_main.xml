@@ -120,7 +120,7 @@
                         android:onClick="clearButton"
                         android:text="@string/clear"
                         android:textColor="?attr/on_button_clear_color"
-                        android:textSize="24sp" />
+                        android:textSize="30sp" />
 
                 </TableRow>
 
