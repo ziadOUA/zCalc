@@ -513,8 +513,8 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:onClick="pointButton"
-                        app:srcCompat="@drawable/dot"
-                        android:textSize="@dimen/button_text_size" />
+                        android:textSize="@dimen/button_text_size"
+                        app:srcCompat="@drawable/comma" />
 
                     <ImageButton
                         android:id="@+id/backspaceButton"
