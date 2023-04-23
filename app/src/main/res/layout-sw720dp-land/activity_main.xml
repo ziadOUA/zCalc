@@ -147,7 +147,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
-                        android:layout_weight="0.6"
+                        android:layout_weight="0.2"
                         android:background="@drawable/circle"
                         android:backgroundTint="?attr/foreground_color"
                         android:fontFamily="@style/RobotoFontCondensedLight"
@@ -221,8 +221,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
-                        android:layout_weight="0.6"
-                        />
+                        android:layout_weight="0.2"/>
 
                 </TableRow>
 
@@ -287,7 +286,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_margin="0dp"
-                        android:layout_weight="0.6" />
+                        android:layout_weight="0.2" />
 
                 </TableRow>
 
