@@ -14,7 +14,7 @@
             android:height="11dp"
             android:viewportWidth="671"
             android:viewportHeight="11"
-            android:tint="?attr/about_separator_color">
+            android:tint="?attr/colorOnSurfaceVariant">
 
             <path
                 android:strokeColor="#222222"

@@ -7,14 +7,14 @@
     <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="?attr/background_color">
+    android:background="?attr/colorSurface">
 
         <ImageView
             android:id="@+id/settings_back_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_baseline_arrow_back_24"
-            android:backgroundTint="?attr/text_color"
+            android:backgroundTint="?attr/colorOnSurface"
             android:layout_marginVertical="18dp"
             android:layout_marginHorizontal="16dp"
             app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +27,7 @@
             android:layout_marginHorizontal="20dp"
             android:paddingVertical="18dp"
             android:text="@string/preferences_title"
-            android:textColor="?attr/text_color"
+            android:textColor="?attr/colorOnSurface"
             android:textSize="22sp"
             app:layout_constraintBottom_toBottomOf="@+id/settings_back_button"
             app:layout_constraintStart_toEndOf="@+id/settings_back_button"
@@ -37,7 +37,7 @@
             android:id="@+id/settings"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="?attr/background_color"
+            android:background="?attr/colorSurface"
             app:layout_constraintTop_toBottomOf="@+id/settings_back_button_text" />
 
 

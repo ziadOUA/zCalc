@@ -16,8 +16,8 @@
             android:gravity="end"
             android:paddingVertical="4dp"
             android:paddingHorizontal="10dp"
-            android:background="?attr/history_background_color"
-            android:textColor="?attr/text_color"
+            android:background="?attr/colorSurfaceVariant"
+            android:textColor="?attr/colorOnSurface"
             android:textSize="25sp"
             app:layout_constraintTop_toBottomOf="@+id/history_time"
             tools:ignore="MissingConstraints" />
@@ -29,22 +29,21 @@
             android:gravity="end"
             android:paddingHorizontal="10dp"
             android:paddingVertical="4dp"
-            android:background="?attr/history_background_color"
-            android:textColor="?attr/text_second_color"
+            android:background="?attr/colorSurfaceVariant"
+            android:textColor="?attr/colorOnSurfaceVariant"
             android:textSize="12sp"
             app:layout_constraintTop_toBottomOf="@+id/history_item_calculation"
             tools:ignore="MissingConstraints" />
 
         <TextView
             android:id="@+id/history_time"
-            style="@style/RobotoFontCondensedMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="start"
             android:paddingHorizontal="10dp"
             android:paddingVertical="4dp"
-            android:background="?attr/history_background_color"
-            android:textColor="?attr/text_second_color"
+            android:background="?attr/colorSurfaceVariant"
+            android:textColor="?attr/colorOnSurfaceVariant"
             android:textSize="14sp"
             tools:ignore="MissingConstraints" />
 
@@ -53,22 +52,23 @@
             android:id="@+id/history_same_date_separator"
             android:layout_width="match_parent"
             android:layout_height="10dp"
-            android:background="?attr/history_background_color"
+            android:background="?attr/colorSurfaceVariant"
             app:layout_constraintTop_toBottomOf="@+id/history_item_result"
             tools:ignore="MissingConstraints" />
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="?attr/foreground_color"
+            android:background="?attr/colorSecondaryContainer"
             app:layout_constraintTop_toBottomOf="@+id/history_item_result"
             tools:ignore="MissingConstraints" />
 
         <ImageView
+            android:importantForAccessibility="no"
             android:id="@+id/history_separator"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:background="?attr/history_background_color"
+            android:background="?attr/colorSurfaceVariant"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/history_item_result"

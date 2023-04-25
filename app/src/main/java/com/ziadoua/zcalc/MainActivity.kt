@@ -249,13 +249,13 @@ class MainActivity : AppCompatActivity() {
         if (errorStatus != errorStatusOld) {
             // Set error color
             if (errorStatus) {
-                binding.input.setTextColor(ContextCompat.getColor(this,R.color.calculation_error_color))
-                binding.resultDisplay.setTextColor(ContextCompat.getColor(this,R.color.calculation_error_color))
+                binding.input.setTextColor(ContextCompat.getColor(this,R.color.md_theme_light_error))
+                binding.resultDisplay.setTextColor(ContextCompat.getColor(this,R.color.md_theme_light_error))
             }
             // Clear error color
             else {
-                binding.input.setTextColor(ContextCompat.getColor(this,R.color.text_color))
-                binding.resultDisplay.setTextColor(ContextCompat.getColor(this,R.color.text_second_color))
+                binding.input.setTextColor(ContextCompat.getColor(this,R.color.md_theme_light_onSurface))
+                binding.resultDisplay.setTextColor(ContextCompat.getColor(this,R.color.md_theme_light_surfaceVariant))
             }
             errorStatusOld = errorStatus
         }

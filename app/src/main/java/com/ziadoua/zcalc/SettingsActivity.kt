@@ -34,9 +34,9 @@ class SettingsActivity : AppCompatActivity() {
 
         // Change the status bar color
         if (MyPreferences(this).theme == 1) { // Amoled theme
-            window.statusBarColor = ContextCompat.getColor(this, R.color.amoled_background_color)
+            window.statusBarColor = ContextCompat.getColor(this, R.color.md_theme_dark_surface)
         } else {
-            window.statusBarColor = ContextCompat.getColor(this, R.color.background_color)
+            window.statusBarColor = ContextCompat.getColor(this, R.color.md_theme_light_surface)
         }
 
         // back button

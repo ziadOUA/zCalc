@@ -23,8 +23,7 @@
             android:id="@+id/constraintLayout2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            tools:context=".MainActivity"
-            >
+            tools:context=".MainActivity">
 
             <TableLayout
                 android:id="@+id/tableLayout"
@@ -75,6 +74,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/seven" />
@@ -85,6 +85,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/eight" />
@@ -95,6 +96,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/nine" />
@@ -105,7 +107,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_symbol_color"
+                        android:backgroundTint="?attr/colorSecondaryContainer"
                         android:onClick="divideButton"
                         app:srcCompat="@drawable/divide" />
 
@@ -115,11 +117,11 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_clear_color"
+                        android:backgroundTint="?attr/colorPrimaryContainer"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="clearButton"
                         android:text="@string/clear"
-                        android:textColor="?attr/on_button_clear_color"
+                        android:textColor="?attr/colorOnPrimaryContainer"
                         android:textSize="30sp" />
 
                 </TableRow>
@@ -168,7 +170,8 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
-                        android:text="@string/four" />
+                        android:text="@string/four"
+                        android:backgroundTint="?attr/colorSurfaceVariant" />
 
                     <Button
                         android:id="@+id/fiveButton"
@@ -176,6 +179,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/five" />
@@ -186,6 +190,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/six" />
@@ -196,7 +201,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_symbol_color"
+                        android:backgroundTint="?attr/colorSecondaryContainer"
                         android:onClick="multiplyButton"
                         app:srcCompat="@drawable/multiply" />
 
@@ -206,7 +211,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_symbol_color"
+                        android:backgroundTint="?attr/colorSecondaryContainer"
                         android:onClick="parenthesesButton"
                         app:srcCompat="@drawable/parentheses" />
 
@@ -255,6 +260,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/one" />
@@ -265,6 +271,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/two" />
@@ -275,9 +282,10 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
-                        android:text="@string/three"/>
+                        android:text="@string/three" />
 
                     <ImageButton
                         android:id="@+id/subtractButton"
@@ -285,7 +293,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_symbol_color"
+                        android:backgroundTint="?attr/colorSecondaryContainer"
                         android:onClick="subtractButton"
                         app:srcCompat="@drawable/subtract" />
 
@@ -295,7 +303,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_symbol_color"
+                        android:backgroundTint="?attr/colorSecondaryContainer"
                         android:onClick="exponentButton"
                         app:srcCompat="@drawable/exponent" />
 
@@ -342,6 +350,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/zero" />
@@ -352,6 +361,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:onClick="pointButton"
                         app:srcCompat="@drawable/dot" />
 
@@ -361,6 +371,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
+                        android:backgroundTint="?attr/colorSurfaceVariant"
                         android:contentDescription="@string/backspace"
                         android:onClick="backspaceButton"
                         android:paddingEnd="5dp"
@@ -372,7 +383,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_symbol_color"
+                        android:backgroundTint="?attr/colorSecondaryContainer"
                         android:onClick="addButton"
                         app:srcCompat="@drawable/add" />
 
@@ -382,7 +393,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/button_equals_color"
+                        android:backgroundTint="?attr/colorTertiaryContainer"
                         android:onClick="equalsButton"
                         app:srcCompat="@drawable/equals"/>
 
@@ -404,7 +415,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_marginBottom="15dp"
-                android:background="?attr/history_background_color"
+                android:background="?attr/colorSurfaceVariant"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -416,7 +427,7 @@
                 android:layout_height="4dp"
                 android:layout_marginBottom="16dp"
                 android:background="@drawable/rounded"
-                android:backgroundTint="?attr/text_color"
+                android:backgroundTint="?attr/colorOnSurface"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.498"
@@ -433,13 +444,12 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/guideline1"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="?attr/foreground_color"
+        android:background="?attr/colorSecondaryContainer"
         android:scrollbars="none"
         android:overScrollMode="never">
 
         <EditText
             android:id="@+id/input"
-            style="@style/RobotoFontCondensedMedium"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_gravity="right"
@@ -449,16 +459,15 @@
             android:singleLine="true"
             android:text=""
             android:textAlignment="textEnd"
-            android:textColor="?attr/text_color"
+            android:textColor="?attr/colorOnSurface"
             android:textSize="55sp"
-            android:background="?attr/foreground_color"
+            android:background="?attr/colorSecondaryContainer"
             tools:ignore="RtlCompat" />
 
     </HorizontalScrollView>
 
     <EditText
         android:id="@+id/resultDisplay"
-        style="@style/RobotoFontCondensedMedium"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:scrollHorizontally="true"
@@ -466,10 +475,10 @@
         android:cursorVisible="false"
         android:focusable="false"
         android:singleLine="true"
-        android:background="?attr/foreground_color"
+        android:background="?attr/colorSecondaryContainer"
         android:inputType="textNoSuggestions"
         android:text=""
-        android:textColor="?attr/text_second_color"
+        android:textColor="?attr/colorOnSecondaryContainer"
         android:layout_weight="1"
         android:textAlignment="textEnd"
         android:textSize="30sp"
@@ -494,7 +503,6 @@
 
     <ImageButton
         android:id="@+id/settingsButton"
-        style="@style/RobotoFontCondensedLight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
@@ -511,10 +519,9 @@
         android:visibility="visible"
         android:layout_marginStart="12dp"
         android:layout_marginTop="8dp"
-        style="@style/RobotoFontCondensedMedium"
         android:textSize="25sp"
-        android:text="DEG"
-        android:textColor="?attr/text_third_color"
+        android:text="@string/degree"
+        android:textColor="?attr/colorOnSurfaceVariant"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

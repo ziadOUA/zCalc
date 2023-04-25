@@ -1,4 +1,4 @@
-<vector android:height="40dp" android:tint="?attr/text_color"
+<vector android:height="40dp" android:tint="?attr/colorOnSurface"
     android:viewportHeight="24" android:viewportWidth="24"
     android:width="40dp" xmlns:android="http://schemas.android.com/apk/res/android">
     <group

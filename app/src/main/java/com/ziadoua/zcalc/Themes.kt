@@ -21,7 +21,7 @@ class Themes(private val context: Context) {
         private val themeMap = mapOf(
             DEFAULT_THEME_INDEX to R.style.AppTheme,
             AMOLED_THEME_INDEX to R.style.AmoledTheme,
-            MATERIAL_YOU_THEME_INDEX to R.style.MaterialYouTheme
+            MATERIAL_YOU_THEME_INDEX to R.style.AppTheme
         )
 
         // Styles - Combinations of theme + day/night mode
