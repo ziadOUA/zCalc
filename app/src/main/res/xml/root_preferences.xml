@@ -8,15 +8,6 @@
         <!--app:iconSpaceReserved="false"-->
 
         <Preference
-            android:id="@+id/settings_select_color_theme"
-            app:enabled="true"
-            app:icon="@drawable/language"
-            app:key="ziadoua.zcalc.COLOR_THEME"
-            app:selectable="true"
-            app:summary="APP LANGUAGE"
-            app:title="@string/preferences_language_title" />
-
-        <Preference
             android:id="@+id/settings_select_app_language"
             app:enabled="true"
             app:icon="@drawable/language"
