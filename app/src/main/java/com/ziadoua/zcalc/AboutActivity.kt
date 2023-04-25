@@ -1,6 +1,7 @@
 package com.ziadoua.zcalc
 
 import android.content.Intent
+import android.graphics.Color
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
@@ -21,7 +22,7 @@ class AboutActivity : AppCompatActivity() {
 
         // Change the status bar color
         if (MyPreferences(this).theme == 1) { // Amoled theme
-            window.statusBarColor = ContextCompat.getColor(this, R.color.md_theme_dark_surface)
+            window.statusBarColor = Color.parseColor("#FF000000");
         } else {
             window.statusBarColor = ContextCompat.getColor(this, R.color.md_theme_light_surface)
         }

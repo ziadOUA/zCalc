@@ -1,0 +1,59 @@
+
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_dark_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_dark_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_dark_error</item>
+        <item name="colorErrorContainer">@color/md_theme_dark_errorContainer</item>
+        <item name="colorOnError">@color/md_theme_dark_onError</item>
+        <item name="colorOnErrorContainer">@color/md_theme_dark_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_dark_background</item>
+        <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
+        <item name="colorOutline">@color/md_theme_dark_outline</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_dark_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/md_theme_dark_inverseSurface</item>
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_dark_onSurfaceVariant</item>
+        <item name="colorPrimaryInverse">@color/md_theme_dark_inversePrimary</item>
+    </style>
+
+    <style name="AmoledTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#656565</item>
+        <item name="colorOnPrimary">#FFF</item>
+        <item name="colorPrimaryContainer">#000</item>
+        <item name="colorOnPrimaryContainer">#FFF</item>
+        <item name="colorSecondary">#FFF</item>
+        <item name="colorOnSecondary">#FFF</item>
+        <item name="colorSecondaryContainer">#000</item>
+        <item name="colorOnSecondaryContainer">#FFF</item>
+        <item name="colorTertiary">#000</item>
+        <item name="colorOnTertiary">#FFF</item>
+        <item name="colorTertiaryContainer">#000</item>
+        <item name="colorOnTertiaryContainer">#FFF</item>
+        <item name="colorError">#000</item>
+        <item name="colorErrorContainer">#000</item>
+        <item name="colorOnError">#FFF</item>
+        <item name="colorOnErrorContainer">#FFF</item>
+        <item name="android:colorBackground">#000</item>
+        <item name="colorOnBackground">#FFF</item>
+        <item name="colorOutline">#FFF</item>
+        <item name="colorOnSurfaceInverse">#FFF</item>
+        <item name="colorSurfaceInverse">#000</item>
+        <item name="colorSurface">#000</item>
+        <item name="colorOnSurface">#FFF</item>
+        <item name="colorSurfaceVariant">#000</item>
+        <item name="colorOnSurfaceVariant">#FFF</item>
+    </style>
+</resources>
