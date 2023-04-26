@@ -26,4 +26,90 @@
         <!-- PI breaks without this -->
         <item name="android:textAllCaps">false</item>
     </style>
+
+    <style name="AppTheme" parent="AppTheme.Base">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/colorSecondaryContainer</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/colorOnPrimaryContainer</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+        <item name="colorSecondaryContainer">@color/colorSecondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/colorOnSecondaryContainer</item>
+        <item name="colorTertiary">@color/colorTertiary</item>
+        <item name="colorOnTertiary">@color/colorOnTertiary</item>
+        <item name="colorTertiaryContainer">@color/colorTertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/colorOnTertiaryContainer</item>
+        <item name="colorError">@color/colorError</item>
+        <item name="colorErrorContainer">@color/colorErrorContainer</item>
+        <item name="colorOnError">@color/colorOnError</item>
+        <item name="colorOnErrorContainer">@color/colorOnErrorContainer</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="colorOutline">@color/colorOutline</item>
+        <item name="colorOnSurfaceInverse">@color/colorOnSurfaceInverse</item>
+        <item name="colorSurfaceInverse">@color/colorSurfaceInverse</item>
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnSurface</item>
+        <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
+        <item name="colorPrimaryInverse">@color/colorPrimaryInverse</item>
+    </style>
+
+    <style name="AmoledTheme" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="android:statusBarColor">#000</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimary">#656565</item>
+        <item name="colorOnPrimary">#FFF</item>
+        <item name="colorPrimaryContainer">#000</item>
+        <item name="colorOnPrimaryContainer">#FFF</item>
+        <item name="colorSecondary">#FFF</item>
+        <item name="colorOnSecondary">#FFF</item>
+        <item name="colorSecondaryContainer">#000</item>
+        <item name="colorOnSecondaryContainer">#FFF</item>
+        <item name="colorTertiary">#000</item>
+        <item name="colorOnTertiary">#FFF</item>
+        <item name="colorTertiaryContainer">#000</item>
+        <item name="colorOnTertiaryContainer">#FFF</item>
+        <item name="colorError">#000</item>
+        <item name="colorErrorContainer">#000</item>
+        <item name="colorOnError">#FFF</item>
+        <item name="colorOnErrorContainer">#FFF</item>
+        <item name="android:colorBackground">#000</item>
+        <item name="colorOnBackground">#FFF</item>
+        <item name="colorOutline">#FFF</item>
+        <item name="colorOnSurfaceInverse">#FFF</item>
+        <item name="colorSurfaceInverse">#000</item>
+        <item name="colorSurface">#000</item>
+        <item name="colorOnSurface">#FFF</item>
+        <item name="colorSurfaceVariant">#000</item>
+        <item name="colorOnSurfaceVariant">#FFF</item>
+    </style>
+
+    <style name="MaterialYouTheme" parent="AppTheme">
+        <item name="android:statusBarColor">@color/material_dynamic_secondary90</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/material_dynamic_primary40</item>
+        <item name="colorOnPrimary">@color/material_dynamic_primary100</item>
+        <item name="colorPrimaryContainer">@color/material_dynamic_primary90</item>
+        <item name="colorOnPrimaryContainer">@color/material_dynamic_primary10</item>
+        <item name="colorSecondary">@color/material_dynamic_secondary40</item>
+        <item name="colorOnSecondary">@color/material_dynamic_secondary100</item>
+        <item name="colorSecondaryContainer">@color/material_dynamic_secondary90</item>
+        <item name="colorOnSecondaryContainer">@color/material_dynamic_neutral10</item>
+        <item name="colorTertiary">@color/material_dynamic_tertiary40</item>
+        <item name="colorOnTertiary">@color/material_dynamic_tertiary100</item>
+        <item name="colorTertiaryContainer">@color/material_dynamic_tertiary90</item>
+        <item name="colorOnTertiaryContainer">@color/material_dynamic_tertiary10</item>
+        <item name="colorOutline">@color/material_dynamic_neutral_variant50</item>
+        <item name="colorSurface">@color/material_dynamic_neutral99</item>
+        <item name="colorOnSurface">@color/material_dynamic_neutral10</item>
+        <item name="colorSurfaceVariant">@color/material_dynamic_neutral_variant90</item>
+        <item name="colorOnSurfaceVariant">@color/material_dynamic_neutral_variant30</item>
+    </style>
 </resources>

@@ -24,7 +24,7 @@ class AboutActivity : AppCompatActivity() {
         if (MyPreferences(this).theme == 1) { // Amoled theme
             window.statusBarColor = Color.parseColor("#FF000000");
         } else {
-            window.statusBarColor = ContextCompat.getColor(this, R.color.md_theme_light_surface)
+            window.statusBarColor = ContextCompat.getColor(this, R.color.colorBackground)
         }
 
         binding = ActivityAboutBinding.inflate(layoutInflater)
