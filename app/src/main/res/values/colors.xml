@@ -27,4 +27,11 @@
     <color name="colorOnSurface">#191C1E</color>
     <color name="colorSurfaceVariant">#DCE4E9</color>
     <color name="colorOnSurfaceVariant">#40484C</color>
+    <color name="colorSurfaceContainerHighest">#E1E2E4</color>
+    <color name="colorSurfaceContainerHigh">#E7E8EA</color>
+    <color name="colorSurfaceContainer">#EDEEF0</color>
+    <color name="colorSurfaceContainerLow">#F2F4F6</color>
+    <color name="colorSurfaceContainerLowest">#FFFFFF</color>
+    <color name="colorSurfaceBright">#F8F9FB</color>
+    <color name="colorSurfaceDim">#D9DADC</color>
 </resources>

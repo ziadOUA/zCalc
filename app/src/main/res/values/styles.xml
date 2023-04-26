@@ -59,6 +59,13 @@
         <item name="colorSurfaceVariant">@color/colorSurfaceVariant</item>
         <item name="colorOnSurfaceVariant">@color/colorOnSurfaceVariant</item>
         <item name="colorPrimaryInverse">@color/colorPrimaryInverse</item>
+        <item name="colorSurfaceContainerHighest">@color/colorSurfaceContainerHighest</item>
+        <item name="colorSurfaceContainerHigh">@color/colorSurfaceContainerHigh</item>
+        <item name="colorSurfaceContainer">@color/colorSurfaceContainer</item>
+        <item name="colorSurfaceContainerLow">@color/colorSurfaceContainerLow</item>
+        <item name="colorSurfaceContainerLowest">@color/colorSurfaceContainerLowest</item>
+        <item name="colorSurfaceBright">@color/colorSurfaceBright</item>
+        <item name="colorSurfaceDim">@color/colorSurfaceDim</item>
     </style>
 
     <style name="AmoledTheme" parent="Theme.Material3.Dark.NoActionBar">
@@ -89,6 +96,13 @@
         <item name="colorOnSurface">#FFF</item>
         <item name="colorSurfaceVariant">#000</item>
         <item name="colorOnSurfaceVariant">#FFF</item>
+        <item name="colorSurfaceContainerHighest">#000</item>
+        <item name="colorSurfaceContainerHigh">#000</item>
+        <item name="colorSurfaceContainer">#000</item>
+        <item name="colorSurfaceContainerLow">#000</item>
+        <item name="colorSurfaceContainerLowest">#000</item>
+        <item name="colorSurfaceBright">#000</item>
+        <item name="colorSurfaceDim">#000</item>
     </style>
 
     <style name="MaterialYouTheme" parent="AppTheme">
@@ -111,5 +125,11 @@
         <item name="colorOnSurface">@color/material_dynamic_neutral10</item>
         <item name="colorSurfaceVariant">@color/material_dynamic_neutral_variant90</item>
         <item name="colorOnSurfaceVariant">@color/material_dynamic_neutral_variant30</item>
+        <item name="colorSurfaceContainerHigh">@color/material_dynamic_neutral90</item>
+    </style>
+
+    <style name="Widget.Material3.PopupMenu" parent="Widget.MaterialComponents.PopupMenu">
+        <item name="android:popupBackground">@drawable/rounded</item>
+        <item name="android:popupElevation">2dp</item>
     </style>
 </resources>

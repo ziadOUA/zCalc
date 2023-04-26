@@ -26,4 +26,11 @@
     <attr name="colorSurfaceVariant" format="color"/>
     <attr name="colorOnSurfaceVariant" format="color"/>
     <attr name="colorPrimaryInverse" format="color"/>
+    <attr name="colorSurfaceContainerHighest" format="color"/>
+    <attr name="colorSurfaceContainerHigh" format="color"/>
+    <attr name="colorSurfaceContainer" format="color"/>
+    <attr name="colorSurfaceContainerLow" format="color"/>
+    <attr name="colorSurfaceContainerLowest" format="color"/>
+    <attr name="colorSurfaceBright" format="color"/>
+    <attr name="colorSurfaceDim" format="color"/>
 </resources>
