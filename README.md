@@ -1,5 +1,4 @@
 # zCalc
-# ⚠ I'm currently rewriting the color system in the app. Coloring problems are to be expected.
 
 <img src="https://i.postimg.cc/x1nXPV1M/ZCALC.png">
 
