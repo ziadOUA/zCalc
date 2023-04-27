@@ -125,6 +125,7 @@
         <item name="colorOnSurface">@color/material_dynamic_neutral10</item>
         <item name="colorSurfaceVariant">@color/material_dynamic_neutral_variant90</item>
         <item name="colorOnSurfaceVariant">@color/material_dynamic_neutral_variant30</item>
+        <item name="colorSurfaceContainerLow">@color/material_dynamic_neutral95</item>
         <item name="colorSurfaceContainerHigh">@color/material_dynamic_neutral90</item>
     </style>
 

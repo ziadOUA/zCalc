@@ -345,7 +345,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/seven" />
@@ -356,7 +356,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/eight" />
@@ -367,7 +367,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/nine" />
@@ -394,7 +394,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/four" />
@@ -405,7 +405,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/five" />
@@ -416,7 +416,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/six" />
@@ -443,7 +443,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/one" />
@@ -454,7 +454,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/two" />
@@ -465,7 +465,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/three" />
@@ -492,7 +492,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="keyDigitPadMappingToDisplay"
                         android:text="@string/zero" />
@@ -503,7 +503,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:onClick="pointButton"
                         app:srcCompat="@drawable/comma" />
 
@@ -513,7 +513,7 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:backgroundTint="?attr/colorSurfaceVariant"
+                        android:backgroundTint="?attr/colorSurfaceContainerLow"
                         android:contentDescription="@string/backspace"
                         android:onClick="backspaceButton"
                         android:paddingEnd="5dp"
