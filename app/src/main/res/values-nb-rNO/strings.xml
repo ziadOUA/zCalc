@@ -38,7 +38,7 @@
     <string name="about_title">Om</string>
     <string name="about_translate">Oversett</string>
     <string name="made_in_france">Laget med ❤️ in Frankrike</string>
-    <string name="thanks_for_using_opencalc">Takk for at du bruker OpenCalc ❤️</string>
+    <string name="thanks_for_using_opencalc">Takk for at du bruker zCalc ❤️</string>
     <string name="preferences_number_precision">Antall siffer etter komma</string>
     <string name="preferences_prevent_phone_from_sleeping_summary">Forhindre enheten i søvn når programmet er i forgrunnen</string>
     <string name="preferences_language_title">Språk</string>
