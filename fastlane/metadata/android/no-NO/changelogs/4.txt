@@ -1,2 +1,0 @@
-Fikset:
-- Vibrasjoner lagt til for knapper som ikke har dem

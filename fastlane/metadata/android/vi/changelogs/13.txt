@@ -1,6 +1,0 @@
-Mới:
-- Biểu tượng theo chủ đề
-
-Thay đổi:
-- Cập nhật bản dịch
-- Xóa đầu vào nếu số được nhấn sau dấu bằng

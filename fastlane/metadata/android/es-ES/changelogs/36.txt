@@ -1,5 +1,0 @@
-Nuevo:
-- Página de configuración
-
-Actualizada:
-- Página Acerca de

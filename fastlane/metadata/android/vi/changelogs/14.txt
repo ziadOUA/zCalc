@@ -1,6 +1,0 @@
-Mới:
-- Nút mẹo
-
-Thay đổi:
-- Cải thiện định dạng lịch sử
-- Cập nhật ký tự trừ

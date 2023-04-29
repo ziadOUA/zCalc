@@ -1,6 +1,0 @@
-Change
-- Splash screen is dark now
-
-Fix:
-- keyboard issue
-- keyboard still scrolling

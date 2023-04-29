@@ -1,4 +1,0 @@
-Fikset:
-- Rullefelt for inndata
-- Nødvendig å bla for å se resultatet
-- Tøm inndata hvis nummer trykkes etter «er lik»

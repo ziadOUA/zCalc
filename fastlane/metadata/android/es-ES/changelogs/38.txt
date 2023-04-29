@@ -1,2 +1,0 @@
-Corregido:
-- División porcentual

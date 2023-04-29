@@ -1,5 +1,0 @@
-Endret:
-- Tillagt inndeler for store tall
-- Ny italiensk oversettelse
-- Ny arabisk oversettelse
-- Ny tyrkisk oversettelse

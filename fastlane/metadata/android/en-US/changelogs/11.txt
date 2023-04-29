@@ -1,9 +1,0 @@
-Change:
-- German translation
-- Russian translation
-- Greek translation
-- Hindi translation
-- Azerbajian translation
-
-Fix:
-- Unmathematical percent

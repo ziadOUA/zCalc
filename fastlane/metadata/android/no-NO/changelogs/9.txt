@@ -1,7 +1,0 @@
-Endring:
-- Ny «Om»-side
-- Inndeler for svart drakt
-
-Fikset:
-- Avkryssningsboksfarge
-- Programnavn (oversatt til en og fr)

@@ -1,8 +1,0 @@
-Nytt:
-- Historikk
-
-Endring:
-- Optimalisering
-
-Fikset:
-- Problemer med resultatvisning

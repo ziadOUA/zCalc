@@ -1,6 +1,0 @@
-Nytt:
-- Tips-knapp
-
-Endring:
-- Forbedret historikkformat
-- Oppdater minustegn

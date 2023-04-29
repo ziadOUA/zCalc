@@ -1,4 +1,0 @@
-Sửa lỗi:
-- Thanh cuộn đầu vào
-- Cần cuộn để xem kết quả
-- Xóa đầu vào nếu số được nhấn sau dấu bằng

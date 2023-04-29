@@ -1,7 +1,0 @@
-Change:
-- new about page
-- add separator for the amoled theme
-
-Fix:
-- checkbox color
-- app name (translated in EN & FR)

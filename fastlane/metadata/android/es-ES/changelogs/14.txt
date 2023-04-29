@@ -1,6 +1,0 @@
-Nuevo
-- Botón de propina
-
-Cambiar:
-- Mejorar el formato de la historia
-- Actualizadocarácter minimos

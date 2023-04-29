@@ -1,8 +1,0 @@
-Mới:
-- Lịch sử
-
-Thay đổi:
-- Tối ưu hóa
-
-Sửa lỗi:
-- Vấn đề hiển thị kết quả

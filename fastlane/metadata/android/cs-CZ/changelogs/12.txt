@@ -1,8 +1,0 @@
-Nové:
-- Historie
-
-Změny:
-- Optimalizace
-
-Opravy:
-- Chyby při zobrazování výsledku

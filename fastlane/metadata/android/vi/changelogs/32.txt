@@ -1,2 +1,0 @@
-Đã sửa:
-- Crash trên màn hình nhỏ và máy tính bảng

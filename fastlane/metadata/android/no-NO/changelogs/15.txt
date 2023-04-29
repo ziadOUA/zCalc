@@ -1,6 +1,0 @@
-Endret
-- Startskjermen er mørk nå
-
-Fikset:
-- Tastaturproblem
-- At tastaturet fortsatt rullet

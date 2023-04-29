@@ -1,6 +1,0 @@
-New:
-- Themed icon
-
-Change:
-- Update translations
-- Clear input if number pressed after equal

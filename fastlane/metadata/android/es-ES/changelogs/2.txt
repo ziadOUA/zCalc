@@ -1,3 +1,0 @@
-Nuevo:
-- Tema Amoled
-- Seguir el tema del sistema

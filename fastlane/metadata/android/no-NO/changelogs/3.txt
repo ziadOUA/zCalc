@@ -1,8 +1,0 @@
-Nytt:
-- Vibrasjonssystem
-
-Endring:
-- Kodeforbedring
-
-Fikse:
-- Følg systemdrakt ved første lansering

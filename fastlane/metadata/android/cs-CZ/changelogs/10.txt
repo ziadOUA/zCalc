@@ -1,5 +1,0 @@
-Změny:
-- přidány oddělovače pro velká čísla
-- přidán italský překlady
-- přidán arabský překlady
-- přidán turecký překlad

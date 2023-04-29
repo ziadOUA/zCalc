@@ -1,2 +1,0 @@
-Fikset:
-- Krasj på små skjermer og nettbrett
