@@ -177,8 +177,7 @@
                         android:layout_weight="1"
                         android:fontFamily="@font/lexenddeca"
                         android:onClick="degreeButton"
-                        android:text="@string/degree"
-                        android:textSize="22sp" />
+                        android:text="@string/degree" />
 
                     <Button
                         android:id="@+id/sineButton"
