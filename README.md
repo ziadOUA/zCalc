@@ -1,13 +1,12 @@
-# zCalc
-
 <img src="https://i.postimg.cc/x1nXPV1M/ZCALC.png">
 
+<h1 align="center">zCard</h1>
+
 <div align="center">
+  <p>A simple and beautiful  calculator for Android.</p>
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Android/android2.svg">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Kotlin/kotlin2.svg">
 </div>
-
-A simple and beautiful calculator for Android.
 
 # Screenshots
 
