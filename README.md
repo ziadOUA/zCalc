@@ -1,4 +1,4 @@
-<img src="https://i.postimg.cc/x1nXPV1M/ZCALC.png">
+<img src="https://i.postimg.cc/28KHLp0C/ZCALC.png">
 
 <h1 align="center">zCard</h1>
 
