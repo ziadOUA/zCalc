@@ -35,3 +35,17 @@
   <img src="https://i.postimg.cc/yd5B5HWh/screenshot-1.jpg" width="200">
   <img src="https://i.postimg.cc/mDhB8DZ2/screenshot-2.jpg" width="200">
 </div>
+
+<br>
+
+<p align="center">  
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://i.postimg.cc/KzPKjBNn/footer-Dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://i.postimg.cc/C5wRq5P9/footer-Light.png">
+    <img alt="Footer" src="https://i.postimg.cc/KzPKjBNn/footer-Dark.png">
+  </picture>
+</p>
+
+<p align="center">
+  <img src=" 	https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceGPLv3/licencegplv31.svg">
+</p>
