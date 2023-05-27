@@ -47,5 +47,5 @@
 </p>
 
 <p align="center">
-  <img src=" 	https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceGPLv3/licencegplv31.svg">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/LicenceGPLv3/licencepglv32.svg">
 </p>
