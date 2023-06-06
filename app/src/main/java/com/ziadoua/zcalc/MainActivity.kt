@@ -254,8 +254,8 @@ class MainActivity : AppCompatActivity() {
             }
             // Clear error color
             else {
-                binding.input.setTextColor(ContextCompat.getColor(this,R.color.colorOnSecondary))
-                binding.resultDisplay.setTextColor(ContextCompat.getColor(this,R.color.colorOnSecondary))
+                binding.input.setTextColor(ContextCompat.getColor(this,R.color.colorOnSecondaryContainer))
+                binding.resultDisplay.setTextColor(ContextCompat.getColor(this,R.color.colorOnSecondaryContainer))
             }
             errorStatusOld = errorStatus
         }
