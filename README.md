@@ -1,6 +1,6 @@
 <img src="https://i.postimg.cc/28KHLp0C/ZCALC.png">
 
-<h1 align="center">zCard</h1>
+<h1 align="center">zCalc</h1>
 
 <div align="center">
   <p>A simple and beautiful  calculator for Android.</p>

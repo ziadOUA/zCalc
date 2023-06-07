@@ -3,7 +3,7 @@ package com.ziadoua.zcalc
 import android.app.Application
 import androidx.appcompat.app.AppCompatDelegate.*
 
-class ZCardApp : Application() {
+class ZCalcApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
