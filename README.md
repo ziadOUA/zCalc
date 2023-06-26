@@ -1,4 +1,4 @@
-<img src="https://i.postimg.cc/28KHLp0C/ZCALC.png">
+<img src="https://i.postimg.cc/4xLmgqyt/ZCALC.png">
 
 <h1 align="center">zCalc</h1>
 
