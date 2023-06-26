@@ -3,7 +3,7 @@
 <h1 align="center">zCalc</h1>
 
 <div align="center">
-  <p>A simple and beautiful  calculator for Android.</p>
+  <p>A simple and beautiful calculator for Android.</p>
   <img src="https://m3-markdown-badges.vercel.app/stars/6/2/ziadoua/zcalc">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Android/android2.svg">
   <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Kotlin/kotlin2.svg">
